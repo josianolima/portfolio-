@@ -1,0 +1,100 @@
+.content{
+    display: flex;
+    justify-content: center;
+    max-width: 59%;
+    margin: 7% auto;
+    gap: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-info h1{
+    margin-top: 14%;
+    font-size: 60px;
+    color: #1877f2;
+    font-weight: 700;
+}
+.content-info p{
+    margin-top: 15px;
+    color: #1c1e21;
+    font-size: 28px;
+    font-weight: 500;
+}
+.content-login{
+    text-align: center;
+}
+.content-login-box{
+    background-color: #ffffff;
+    width: 396px;
+    height: 360px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 4px 0 #696969;
+}
+input{
+    width: 85%;
+    height: 52px;
+    font-size: 17px;
+    padding: 0 15px;
+    border-radius: 6px;
+    border: 1px solid #f0f2f5;
+    margin: 15px 0;
+    margin-bottom: -4px;
+}
+input:focus{
+    outline-color: #1877f2;
+}
+.botao-entra{
+    background-color: #1877f2;
+    color: #ffffff;
+    width: 93%;
+    height: 52px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+.eqsenha{
+    text-align: center;
+    color: #1877f2;
+    font-size: 14px;
+    width: 100px;
+    text-decoration: none;
+}
+.eqsenha:hover{
+    border-bottom: 1px solid #1877f2;
+}
+.linha{
+    margin: 20px;
+    width: 90%;
+    color: #fdfdfd;
+}
+.nova-conta{
+    background-color: #1cb41c;
+    color: #ffffff;
+    padding: 16px;
+    width: 130px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.nova-conta:hover{
+    background-color: #1ea51e;
+    transition: background-color 0.5s;
+}
+.criar-pagina{
+    font-size: 14px;
+}
+.criar-pagina span{
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.criar-pagina span:hover{
+    border-bottom: 1px solid #1c1e21;
+}

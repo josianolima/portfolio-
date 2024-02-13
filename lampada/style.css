@@ -1,0 +1,94 @@
+body{
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height: 100vh; 
+}
+.d1{
+    background-color: #85c2ad;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 20px;
+}
+.d2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: #061d16;
+}
+img{
+    margin: 20px;
+    display: block;
+    max-width: 200px;
+}
+button{
+    color: #061d16;
+    background-color: #cbccac;
+    width: 90px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 3px;
+}
+#luzAcesa{
+    display: none;
+}
+#luzAcesa.on{
+    cursor: pointer;
+    display: block;
+}
+#luzApagada{
+    display: none;
+}
+#luzApagada.on{
+    cursor: pointer;
+    display: block;
+}
+#consertarLuz{
+    display: none;
+}
+#consertarLuz.on{
+    display: block;
+}
+#btrepair{
+    display: none;
+}
+#btrepair.on{
+    display: block;
+}
+#bton.on{
+    background-color: #747b78;
+    cursor: default;
+}
+#btoff.on{
+    cursor: default;
+    background-color: #747b78;
+}
+
+
+
+
+/*Fundo Botão: #120907
+Texto Botão: #fffaf2
+Cor Titulo: #120907
+Fundo caixa: #e2e2e2;
+Fonte Titulo: font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+Funções:
+- Acender a lâmpada
+- Desligar a lâmpada
+- Ao clicar 3 vezes quebrar a lâmpada
+- Se a lâmpada estiver quebrada, surge um novo botão para consertar.
+- Consertar a lâmpada*/

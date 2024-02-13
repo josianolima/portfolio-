@@ -1,0 +1,121 @@
+.header{
+    display: block;
+    text-align: center;
+}
+.menu{
+    background-color: aqua;
+    padding: 35px;
+    width: 68%;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+}
+.menu a{
+    align-items: center;
+    font-size:40px;
+    padding: 35px;
+    color: black;
+    font-weight: 800;
+}
+.menu a:hover{
+    color: aliceblue;
+}
+
+.imagem1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    margin-top: -15px;
+    background-color: aqua;
+}
+.imagem1 img{
+    width: 300px;
+    border-radius: 50%;
+}
+.imagem1 h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.imagem1 h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+@media (max-width: 1200px){
+    .menu{
+        padding: 20px;
+    }
+    .menu a{
+        font-size: 30px;
+        padding: 20px;
+    }
+    .imagem1 img{
+        width: 200px;
+    }
+    .imagem1 h1{
+        font-size: 33px;
+    }
+    .imagem1 h2{
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 900px){
+    .menu{
+        padding: 15px;
+    }
+    .menu a{
+        font-size: 23px;
+        padding: 12px;
+    }
+    .imagem1 img{
+        width: 145px;
+    }
+    .imagem1 h1{
+        font-size: 27px;
+    }
+    .imagem1 h2{
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 635px){
+    .menu{
+        padding: 13px;
+    }
+    .menu a{
+        font-size: 16px;
+        padding: 8px;
+    }
+    .imagem1 img{
+        width: 115px;
+    }
+    .imagem1 h1{
+        font-size: 21px;
+    }
+    .imagem1 h2{
+        font-size: 19px;
+        margin-top: 4px;
+    }
+}
+
+@media (max-width: 450px){
+    .menu{
+        padding: 12px;
+    }
+    .menu a{
+        font-size: 12px;
+        padding: 4px;
+    }
+    .imagem1 img{
+        width: 105px;
+    }
+    .imagem1 h1{
+        font-size: 17px;
+    }
+    .imagem1 h2{
+        font-size: 15px;
+    }
+}
